@@ -93,6 +93,7 @@ namespace BindingTest.Presentation
             Enemy.Health = 100;
             Enemy.Lives = 3;
 
+            // common random object for reuse
             _random = new Random();
         }
     }
